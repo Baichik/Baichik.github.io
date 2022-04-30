@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Калькулятор",
+    "description": "Калькулятор для вычисление арифметичесских операций.",
+    "links": [
+      "https://github.com/Baichik/calculator.git"
+    ]
+  },
+  {
+    "title": "Прогноз погоды",
+    "description": "Приложение написанное с использование паттерна MVC. Данные о погоде взяты с OpenWeatherMap API",
+    "links": [
+      "https://github.com/Baichik/clima_mvc.git"
+    ]
+  },
+  {
+    "title": "Photo location",
+    "description": "Приложение для создания и сохранения фотографий, описаний и местоположений где они были сделаны. Все данные хранятся в SQLite.",
+    "links": [
+      "https://github.com/Baichik/photo-location-app.git"
+    ]
+  }, 
+  {
+    "title": "Интернет магазин",
+    "description": "Приложение с возможностью авторизоваться через google, facebook, войти или создать новый аккаунт. Так же можно посмотреть товары и добавить в понравишееся.",
+    "links": [
+      "https://github.com/Baichik/boorShop.git",
+      "https://console.firebase.google.com/project/boorshop-fe838/overview"
+    ]
+  },
+  {
+    "title": "История Кыргызстана",
+    "description": "Приложение создавалась для облегчение жизни студентов Гуманитарно-Технического колледжа на базе книги О.Дж.Осмонова.",
+    "links": [
+      "https://github.com/boorsoft/history-book.git"
+    ]
+  }
+]
