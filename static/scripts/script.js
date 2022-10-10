@@ -6,12 +6,12 @@ let prevY = window.pageYOffset;
 let projects;
 
 const getProjects = async () => {
-  return fetch('/static/projects.json')
+  return fetch('/Baichik.github.io/static/projects.json')
     .then(response => response.json())
     .then(data => projects = data)
     .catch(e => console.error(e))
 }
-  
+
 const ProjectCard = (title, description, links) => {
   const projectCard = document.createElement('div')
   projectCard.classList.add('project-card')
@@ -24,7 +24,7 @@ const ProjectCard = (title, description, links) => {
   const descriptionElement = document.createElement('div')
   descriptionElement.classList.add('description')
   descriptionElement.innerHTML = description
-  
+
   const linksElement = document.createElement('div')
   linksElement.classList.add('links')
 
@@ -42,13 +42,13 @@ const ProjectCard = (title, description, links) => {
   if (links[1]) {
     const firebaseLink = document.createElement('a')
     const icon = document.createElement('i')
-    
+
     icon.classList.add('fas')
     icon.classList.add('fa-database')
     icon.classList.add('link-icon')
     firebaseLink.appendChild(icon)
     firebaseLink.setAttribute('href', links[1])
-  
+
     linksElement.appendChild(firebaseLink)
   }
 
@@ -79,6 +79,6 @@ const onScroll = () => {
   }
 
   prevY = currentY
-} 
+}
 
 window.addEventListener('scroll', onScroll)

@@ -1,91 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Жумабек уулу Байдолот</title>
-    <link href="./static/css/style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id="header" class="header flex-row">
-      <div></div>
-      <div class="header-inner flex-row">
-        <a href="#home">ГЛАВНАЯ</a>
-        <a href="#about">О СЕБЕ</a>
-        <a href="#projects">ПРОЕКТЫ</a>
-        <a href="/static/resume.pdf" download class="resume">РЕЗЮМЕ</a>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Жумабек уулу Байдолот</title>
+  <link href="./static/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="header" class="header flex-row">
+    <div></div>
+    <div class="header-inner flex-row">
+      <a href="#home">ГЛАВНАЯ</a>
+      <a href="#about">О СЕБЕ</a>
+      <a href="#projects">ПРОЕКТЫ</a>
+      <a href="/Baichik.github.io/static/resume.pdf" download class="resume">РЕЗЮМЕ</a>
+    </div>
+  </div>
+
+  <div class="main-container flex-column centered">
+    <div class="container flex-column centered" id="home">
+      <div class="content flex-column">
+
+        <div class="greeting-container flex-column">
+          <h5 class="greeting">Привет, я</h5>
+          <h1 class="name">Жумабек уулу Байдолот.</h1>
+          <h5 class="job">Выпускник Flutter департамента в <a href="https://www.neobis.kg" target="__blank"
+              class="highlight">Neobis.</a></h5>
+          <div class="text-container">
+            <h5 class="info">Я инженер-программист, специализирующийся на создании кроссплатформенных мобильных
+              прилложений на <a href="https://flutter.dev" target="__blank" class="highlight">Flutter.</a></h5>
+          </div>
+
+          <div class="social-links flex-row">
+            <a href="https://github.com/Baichik" target="__blank"><i class="social-link fab fa-github"></i></a>
+            <a href="https:// jumabekovbaichik02@gmail.com" target="__blank"><i
+                class="social-link fas fa-envelope"></i></a>
+            <a href="https://t.me/Baidolot" target="__blank"><i class="social-link fab fa-telegram"></i></a>
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <div class="main-container flex-column centered">
-      <div class="container flex-column centered" id="home">
-        <div class="content flex-column">
-
-          <div class="greeting-container flex-column">
-            <h5 class="greeting">Салам, я</h5>
-            <h1 class="name">Жумабек уулу Байдолот.</h1>
-            <h5 class="job">Выпускник Flutter департамента в <a href="https://www.neobis.kg" target="__blank" class="highlight">Neobis.</a></h5>
-            <div class="text-container">
-              <h5 class="info">Я инженер-программист, специализирующийся на создании кроссплатформенных мобильных прилложений на <a href="https://flutter.dev" target="__blank" class="highlight">Flutter.</a></h5>
-            </div>
-
-            <div class="social-links flex-row">
-              <a href="https://github.com/Baichik" target="__blank"><i class="social-link fab fa-github"></i></a>
-              <a href="https:// jumabekovbaichik02@gmail.com" target="__blank"><i class="social-link fas fa-envelope"></i></a>
-              <a href="https://t.me/Baidolot" target="__blank"><i class="social-link fab fa-telegram"></i></a>
-            </div>
-          </div>
-          
+    <div class="container flex-column centered" id="about">
+      <div class="content flex-column">
+        <h1 class="about-header">О СЕБЕ</h1>
+        <p class="about">
+          Изучаю программирование с 2019 года. Пробовал разные языки программирования
+          (Python, Java, Matlab)
+          но остановился на Dart и фреймворк Flutter. Больше всего опыта набрал и узнал больше о Flutter'е в клубе
+          программирования Neobis,
+          где успешно стажировался три месяца. Так же с Августа 2022 - настоящее время работал над образовательной
+          платформой
+          Skirrum где приобрёл большой опыт работы в команде и с видео контентом в flutter.
+        </p>
+        <div class="stack flex-column">
+          Хорошо знаком с технологиями:
+          <ul>
+            <li><span class="bullet">‣</span><a href="https://flutter.dev" target="__blank"> Flutter</a></li>
+            <li><span class="bullet">‣</span><a href="https://dart.dev" target="__blank"> Dart</a> </li>
+            <li><span class="bullet">‣</span><a href="https://pub.dev/packages/provider" target="__blank"> Provider</a>
+            </li>
+            <li><span class="bullet">‣</span><a href="https://pub.dev/packages/bloc" target="__blank"> Bloc</a></li>
+            <li><span class="bullet">‣</span> Clean Architecture</li>
+            <li><span class="bullet">‣</span><a href="https://console.firebase.google.com" target="__blank">
+                Firebase</a></li>
+          </ul>
         </div>
       </div>
-
-      <div class="container flex-column centered" id="about">
-        <div class="content flex-column">
-          <h1 class="about-header">О СЕБЕ</h1>
-          <p class="about">
-            Изучаю программирование с 2019 года. Пробовал разные языки программирования
-            (Python, Java, Matlab)
-            но остановился на Dart и фреймворке Flutter. Больше всего опыта набрал и узнал больше о Flutter'е в клубе программирования Neobis, 
-            где успешно завершил Study Plan.
-          </p>
-
-          <p class="about">
-            Также, кроме программирования увлекаюсь игрой на гитаре, горным туризмом и горнолыжным спортом.
-          </p>
-
-          <div class="stack flex-column">
-            Хорошо знаком с технологиями:
-            <ul>
-              <li><span class="bullet">‣</span> Flutter</li>
-              <li><span class="bullet">‣</span> Dart</li>
-              <li><span class="bullet">‣</span> Provider</li>
-              <li><span class="bullet">‣</span> Bloc</li>
-              <li><span class="bullet">‣</span> Firebase</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      
-      <div class="container flex-column centered" id="projects">
-        <div class="content flex-column centered">
-          <div id="projectsContainer" class="projects-container flex-row">
-            
-
-<!--             <div class="project-card flex-column">
-              <div class="title"></div>
-              <div class="description"></div>
-              <div class="link">
-                <a href="https://github.com/boorsoft/history-book.git"><i class="fab fa-github link-icon"></i></a>
-              </div>
-            </div> -->
-            
-          </div>
-        </div>
-      </div>
-      
     </div>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="static/scripts/script.js"></script>
-  </body>
+
+    <div class="container flex-column centered" id="projects">
+      <div class="content flex-column centered">
+        <div id="projectsContainer" class="projects-container flex-row">
+
+
+          <!-- <div class="project-card flex-column">
+            <div class="title"></div>
+            <div class="description"></div>
+            <div class="link">
+              <a href="https://github.com/boorsoft/history-book.git"><i class="fab fa-github link-icon"></i></a>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+    integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="static/scripts/script.js"></script>
+</body>
+
 </html>
