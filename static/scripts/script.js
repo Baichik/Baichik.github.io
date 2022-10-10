@@ -6,7 +6,7 @@ let prevY = window.pageYOffset;
 let projects;
 
 const getProjects = async () => {
-  return fetch('/Baichik.github.io/static/projects.json')
+  return fetch('/static/projects.json')
     .then(response => response.json())
     .then(data => projects = data)
     .catch(e => console.error(e))
