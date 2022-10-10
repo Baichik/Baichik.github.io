@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
 
 :root {
-  --primary-color:#604cb8; 
+  --primary-color: #604cb8;
   --secondary-color: #5045a5;
   --accent-color: #08e7d8;
-  --text-color: #e9e5ff; 
-  --secondary-text-color: #d2ccf0; 
+  --text-color: #e9e5ff;
+  --secondary-text-color: #d2ccf0;
 }
 
 * {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
@@ -67,7 +68,7 @@ a {
   justify-content: flex-end;
 }
 
-.header-inner > a {
+.header-inner>a {
   display: block;
   font-weight: bold;
   font-size: 0.9rem;
@@ -75,7 +76,7 @@ a {
   transition: 0.3s ease;
 }
 
-.header-inner > a:hover {
+.header-inner>a:hover {
   color: var(--accent-color);
 }
 
@@ -106,7 +107,8 @@ a {
   justify-content: center;
 }
 
-.greeting-container > h1, h5 {
+.greeting-container>h1,
+h5 {
   margin: 5px 0;
 }
 
@@ -159,7 +161,7 @@ a {
   margin: 10px 0;
 }
 
-.stack > ul {
+.stack>ul {
   padding: 0 12px;
   margin: 10px 0;
   font-weight: 300;
@@ -183,7 +185,7 @@ a {
   background-color: var(--secondary-color);
   width: 380px;
   min-height: 310px;
-  padding: 50px;
+  padding: 30px;
   margin-bottom: 50px;
   margin-right: 50px;
   border-radius: 5px;
@@ -218,7 +220,7 @@ a {
 }
 
 .link-icon:hover {
-  color: var(--accent-color); 
+  color: var(--accent-color);
 }
 
 @media screen and (max-width: 800px) {
